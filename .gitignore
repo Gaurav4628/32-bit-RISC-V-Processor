@@ -1,0 +1,23 @@
+# Ignore Vivado junk
+*.jou
+*.log
+*.str
+*.zip
+*.cache
+*.webtalk
+*.rpt
+*.hw
+*.runs/
+*.sim/
+*.srcs/
+*.Xil/
+*.gen/
+
+# Local IDE files
+.vscode/
+.DS_Store
+
+# Simulation temp files
+*.vcd
+*.wdb
+*.svf
