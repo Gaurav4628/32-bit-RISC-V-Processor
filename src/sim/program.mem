@@ -1,1 +1,13 @@
+// THIS WILL ONLY WORKS IN SINGLE CYCLE RISCV_CORE 
+//THIS CONTAINS HAZARS FOR PIPELINING
 
+00500093   // addi x1, x0, 5
+00a00113   // addi x2, x0, 10
+002081b3   // add  x3, x1, x2
+00302023   // sw   x3, 0(x0)
+00002203   // lw   x4, 0(x0)
+001202b3   // add  x5, x4, x1
+00000013   // nop
+00000013   // nop
+00000013
+00000013
